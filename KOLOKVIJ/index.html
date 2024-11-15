@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Nikol Brkić">
+    <title>Moja Web stranica</title>
+</head>
+<body>
+    <h1>Dobrodošli na moju web stranicu</h1>
+    <p>Ovo je prvi paragraf na mojoj web <strong>stranici</strong></p>
+    <p>Ovo je moj drugi <em>paragraf</em></p>
+
+    <p>Boje</p>
+    <ul type="square">
+        <li>Plava</li>
+        <li>Žuta</li>
+        <li>Roza</li>
+        <li>Zelena</li>
+    </ul>
+ 
+    
+    <img src="https://www.nakladabombon.hr/upload_data/site_photos/big_pahuljica.jpg" width="400"  alt="Slika pahuljice ">
+    <br>
+    <br>
+    <br>
+
+    <a href="https://www.unisb.hr/"  target="_blank"> Kliknite ovdje </a>
+    <br>
+    <br>
+
+    <h3>FORME U HTML-u</h3>
+<form action="" method="get">
+
+    <label for="name">Unesi korisničko ime:</label>
+    <input type="text" id="name" name="name"> <br>
+    <br>
+    <label>Unesi šifru:</label>
+    <input type="password" maxlength="20"> <br>
+    <br>
+    <label>Unesi e-mail:</label>
+    <input type="email" required> <br>
+    <br>
+    <label>Korisnik:</label> <br>
+    <input type="radio" name="Korisnik" id="Admin">
+    <label for="Admin">Admin</label> <br>
+    <br>
+    <input type="radio" name="Korisnik" id="Guest">
+    <label for="Guest">Guest</label><br>
+    <br>
+    <input type="radio" name="Izaberi" id="Other">
+    <label for="Other">Other</label><br>
+
+    <br>
+    <input type="submit">
+    <input type="reset">
+    <br>
+    <br>
+
+
+    <video width="320" height="240" controls>
+        <source src="puppy.mp4"> <br>
+      Your browser does not support the video tag.
+      </video>
+      <br>
+      <audio controls>
+       <source src= "test-audio.ogg">
+      Your browser does not support the audio element.
+      </audio>
+
+
+
+</form>
+
+<br>
+<br>
+
+<!-- TABLICA -->
+<table border="1">
+
+    <tr>
+        <th colspan="6" >Time Table</th>
+    
+    </tr>
+    
+    <tr>
+        <th rowspan="7" >Hours</th>
+    </tr>
+<tr>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+
+    
+</tr>
+  <td colspan="2" >Maths</td>
+  <td>Science</td>
+  <td>Maths</td>
+  <td>Arts</td>
+<tr>
+
+    <tr>
+        <th colspan="5" >LUNCH</th>
+
+    </tr>
+
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td colspan="2" >Science</td>
+        <td rowspan="2">Project</td>
+
+    </tr>
+
+    <tr>
+    <td>Science</td>
+    <td>Maths</td>
+    <td>Science</td>
+    <td>Maths</td >
+    </tr>  
+
+</table>
+
+    
+
+</body>
+</html>
