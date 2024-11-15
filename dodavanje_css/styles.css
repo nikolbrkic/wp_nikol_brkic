@@ -1,0 +1,52 @@
+/*univerzalni selektor*/
+*{
+ font-family: "Montserrat", sans-serif;
+}
+
+
+/*element selektor*/
+h3 {
+    color: rgb(121, 12, 12);
+background-color: rgb(172, 255, 255);
+
+}
+h4{
+    color:#E44CD8 ;
+
+}
+p{
+    font-weight: 300;
+    font-size: 20px;
+}
+div{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(143, 129, 236);
+    text-align: center;
+}
+/*selektor klase*/
+
+.naslov {
+    color: lime;
+}
+.rgb{
+    color: rgb(18, 92, 14)
+}
+
+.amet {
+    background-color: aquamarine;
+}
+
+/*klase*/
+.naslov {
+    color: rgb(102, 101, 172);
+}
+/*id*/
+
+#naslov1{   color: khaki;  }
+    
+
+#world{
+    color: cadetblue;
+    background-color: rgb(155, 214, 216);
+}
