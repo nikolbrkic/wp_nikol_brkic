@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Recepti</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <h1>Dobrodošli u svijet recepata</h1>
+
+    <p> Doživite radost kulinarskog stvaranja!</p>
+
+  </header>
+
+
+
+  <main class="grid-container">
+
+    <section class="grid-item" id="item-a">
+
+      <h2>Jelo 1: Carbonara</h2>
+
+      <img src="carbonara.jpg" alt="Carbonara" class="food-img">
+
+      <p>Talijanski klasik za svakoga.</p>
+
+    </section>
+
+
+
+    <section class="grid-item" id="item-b">
+
+      <h2>Jelo 2: Cezar salata</h2>
+
+      <img src="caesar salad.jpg" alt="Caesar salad" class="food-img">
+
+      <p>Hrskava i svježa salata s piletinom, slaninom i sirom</p>
+
+    </section>
+
+
+
+    <section class="grid-item" id="item-c">
+
+      <h2>Jelo 3: Pizza</h2>
+
+      <img src="pizza.jpg" alt="Pizza" class="food-img">
+
+      <p> Sve o omiljenom zalogaju – od tijesta do savršenog zalogaja!</p>
+
+    </section>
+
+  </main>
+
+
+
+  <footer class="footer">
+
+    <p>&copy; 2025 Svijet Recepta</p>
+
+  </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+body {
+
+    font-family: Arial, sans-serif;
+  
+    margin: 0;
+  
+    padding: 0;
+  
+    line-height: 1.6;
+  
+  }
+  
+  
+  .header {
+  
+    text-align: center;
+  
+    background-color: #ffcc99;
+  
+    padding: 20px;
+  
+  }
+  
+  
+  
+  .header h1 {
+  
+    margin: 0;
+  
+    font-size: 2em;
+  
+    color: #333;
+  
+  }
+  
+  
+  .header p {
+  
+    font-size: 1.2em;
+  
+    color: #666;
+  
+  }
+  
+  
+  
+  .grid-container {
+  
+    display: grid;
+  
+    grid-template-columns: repeat(12, 1fr);
+  
+    grid-template-rows: auto;
+  
+    gap: 20px;
+  
+    padding: 20px;
+  
+  }
+  
+  
+  .grid-item {
+  
+    background-color: #f9f9f9;
+  
+    border: 1px solid #ddd;
+  
+    border-radius: 5px;
+  
+    padding: 20px;
+  
+    text-align: center;
+  
+  }
+  
+  
+  .grid-item img {
+  
+    max-width: 100%;
+  
+    height: auto;
+  
+    border-radius: 5px;
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  
+  #item-a {
+  
+    grid-column: span 12;
+  
+  }
+  
+  
+  
+  #item-b, #item-c {
+  
+    grid-column: span 6;
+  
+  }
+  
+  
+  .footer {
+  
+    text-align: center;
+  
+    padding: 10px;
+  
+    background-color: #333;
+  
+    color: #fff;
+  
+  }
+  
+  
+  @media (max-width: 480px) {
+  
+    .grid-container {
+  
+      grid-template-columns: repeat(1, 1fr);
+  
+    }
+  
+  
+    #item-a, #item-b, #item-c {
+  
+      grid-column: span 1;
+  
+    }
+  
+  }
+
